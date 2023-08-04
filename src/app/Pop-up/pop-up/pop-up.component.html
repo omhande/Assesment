@@ -1,0 +1,41 @@
+
+<div>
+    
+    <form action="/action_page.php">
+        <div>
+        <label for="fname">To   : </label>
+       <!--<input type="text" id="fname" name="firstname" placeholder="Enter email address and press enter"><br>
+       -->
+       <mat-form-field class="example-chip-list">
+        <mat-chip-list #chipList>
+            <mat-chip>Om.hande@gmail.com
+            <button [attr.aria-label]="" >
+                <mat-icon>cancel</mat-icon>
+              </button>
+            </mat-chip>
+        </mat-chip-list>
+       </mat-form-field><br> 
+    </div>
+        <label for="lname">Subject</label>
+        <input type="text" id="lname" name="lastname" placeholder=" ">
+        <fieldset>
+            <p>Dear Om</p>
+            <p>
+                Welcome to Mindtree's Interview. We are glad that you are interested to join Mindree. All the very best to you!
+
+                Before you attend the interview, please make sure that you have the following software installed in your system.
+                If not may download and install from the link provided.<br><br>
+
+                1. Any Editor (Spring Tool Suite or Eclipse or VSCode)<br>
+                2. Git Client<br><br>
+
+                To take the interview, Click on the link below<br>
+                <a href="">$InterviewLink</a><br><br>
+                Duration of the interview is 90 mins. You are expected to turn-on the camera during the complete interview<br>
+                process. Once again wish you very good luck for the interview.
+            </p>
+        </fieldset>
+        </form>
+       <button>Send Invitation</button>
+
+</div>
